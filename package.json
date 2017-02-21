@@ -4,15 +4,20 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "dev": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andy Becker",
   "license": "ISC",
   "dependencies": {
     "good-console": "^6.4.0",
+    "handlebars": "^4.0.6",
     "hapi": "^16.1.0",
     "hapi-swagger": "^7.7.0",
+    "inert": "^4.1.0",
     "joi": "^10.2.2",
-    "mongoose": "^4.8.4"
+    "mongoose": "^4.8.4",
+    "then-jsonp": "^1.0.3",
+    "vision": "^4.1.1"
   }
 }

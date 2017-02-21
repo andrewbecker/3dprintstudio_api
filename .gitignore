@@ -1,2 +1,5 @@
 .DS_STORE
 node_modules
+notes.txt
+API_DATA
+secret.js
